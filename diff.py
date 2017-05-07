@@ -14,7 +14,7 @@ cursor = -1
 while cursor != 0:
     for id in res['ids']: friends.append(id)
     cursor = res['next_cursor']
-    res = tw.friends.ids(count=maxcount,cursor=res['next_cursor'])
+    res = tw.friends.ids(count=maxcount,cursor=cursor)
 
 res = tw.followers.ids(count=maxcount)
 cursor = -1
