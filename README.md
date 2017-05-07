@@ -17,5 +17,5 @@ Then, just launch the script diff.py, it will return something like that :
 
 256 friendsOnly : [ <ids list> ]
 
-528 friendsOnly : [ <ids list> ]
+528 followersOnly : [ <ids list> ]
 ```
